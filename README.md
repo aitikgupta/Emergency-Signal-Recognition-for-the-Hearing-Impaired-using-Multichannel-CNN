@@ -7,7 +7,7 @@ We live in a world where auditory means are used to warn people of Emergency sit
 
 ## Dataset
 
-The dataset used was Google's Audioset. A part of Audioset was used for this study, out of the 632 event classes present in Audioset only 35 classes were used. Classes such as Sirens, alarms, buzzers were marked as emergency while sounds of wind, traffic noises, rain, etc. were marked as non-emergency. The file data_aquisition.py consists of the python script for extracting the 10 second audio-clips from the video links in Audioset csv file. To extract the data run that script, and change the target folder to the desired directory. 
+The dataset used was Google's Audioset. A part of Audioset was used for this study, out of the 632 event classes present in Audioset only 35 classes were used. Classes such as Sirens, alarms, buzzers were marked as emergency while sounds of wind, traffic noises, rain, etc. were marked as non-emergency. The file data_aquisition.py consists of the python script for extracting the 10 second audio-clips from the video links in Audioset csv file. To extract the data run that script, and change the target folder to the desired directory. You can find the csv file from <a href="https://research.google.com/audioset/download.html"> here< </a>
 
 ## Data Preprocessing 
 
