@@ -67,7 +67,7 @@ nonem_files_path = '/home/swarup03/Study_Material/nonEmergency/'
 os.chdir('/home/swarup03/Study_Material/emergency_data')
 
 # mention the name of the .csv file
-with open('eval_segments.csv') as csvfile:
+with open('eval_segments.csv') as csvfile:   # Also use other csv audioset files too extract all the data available in these categories
     readCSV = csv.reader(csvfile,delimiter=',')
     count=0
     em_c=0
